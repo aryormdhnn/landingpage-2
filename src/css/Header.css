@@ -1,0 +1,16 @@
+.header {
+    margin: 16px 100px;
+}
+
+.btn-hero{
+    border: 1px solid #121212;  
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #121212;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
