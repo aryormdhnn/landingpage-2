@@ -1,0 +1,102 @@
+/* Product.css */
+.product {
+    margin: 100px;
+}
+
+.product-title {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    /* Tambahkan ini agar elemen rata tengah secara vertikal */
+}
+
+.product-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* Tambahkan ini agar elemen rata tengah secara vertikal */
+}
+
+.product-content {
+    margin-bottom: 24px;
+}
+
+/* Baris dan item produk */
+.product-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    /* Jarak antar item */
+}
+
+.product-content .col-md-3 {
+    flex: 0 0 25%;
+    /* Tambahkan fleksibilitas untuk lebar item produk */
+    max-width: 25%;
+    /* Atur lebar maksimum untuk item produk */
+    padding: 10px;
+    /* Jarak antar item */
+}
+
+/* Gambar produk */
+.product-content .product-category {
+    position: relative;
+}
+
+.product-category img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Overlay pada hover */
+.product-content .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.product-content .product-category:hover .overlay {
+    opacity: 1;
+}
+
+/* Tombol pada overlay */
+.product-content .btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #121212;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.product-name h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: #374151;
+}
+
+.product-name p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #121212;
+}

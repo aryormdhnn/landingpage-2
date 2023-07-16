@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './components/Hero.jsx';
 import Feature from './components/Feature.jsx';
 import Category from './components/Category.jsx';
+import Product from './components/Product.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Feature />
       <Category />
+      <Product />
     </>
   )
 }
