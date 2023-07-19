@@ -1,0 +1,35 @@
+.cta {
+    background: url("../assets/Banner.svg") no-repeat center center/cover;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.cta h3{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cta p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Modify the .cta-btn class in your cta.css file */
+
+.cta-btn {
+    background: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
