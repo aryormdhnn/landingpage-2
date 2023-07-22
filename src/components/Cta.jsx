@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../css/cta.css'
+import '../css/Cta.css'
 
 const Cta = () => {
     return (
