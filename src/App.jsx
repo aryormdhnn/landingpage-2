@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx';
@@ -7,6 +8,7 @@ import Product from './components/Product.jsx';
 import Brand from './components/Brand.jsx';
 import Cta from './components/CTA.jsx';
 import Footer from './components/Footer.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
