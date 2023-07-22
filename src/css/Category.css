@@ -49,3 +49,22 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .category {
+        margin: 40px 24px;
+    }
+
+    .category h2 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    /* Display two items per row on smaller screens */
+    .category_container .col-md-3 {
+        flex-basis: calc(50% - 16px);
+        margin: 8px;
+        padding: 0;
+    }
+    
+}

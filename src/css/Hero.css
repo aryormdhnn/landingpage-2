@@ -39,5 +39,22 @@
     display: inline-block;
     transition: all 0.3s ease-in-out;
     width:40%;
+}
 
+@media screen and (max-width: 768px) {
+    .hero {
+        margin: 40px 24px;
+        height: 60vh;
+    }
+
+    .hero-text h1{
+        font-size: 32px;
+    }
+    .hero-text p{
+        font-size: 14px;
+    }
+    .label{
+        font-size: 12px;
+        width: 80%;
+    }
 }

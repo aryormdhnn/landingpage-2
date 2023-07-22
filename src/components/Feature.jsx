@@ -14,10 +14,7 @@ import image from '../assets/image-feature.png'
 const Feature = () => {
     return (
         <div className='feature'>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="feature-text">
+                    <div className="feature-text">
                             <h3>
                                 We built our business on great customer service
                             </h3>
@@ -27,7 +24,6 @@ const Feature = () => {
                                 look really good in the headlines, then clarify in the small print but hope
                                 people don't actually read it.
                             </p>
-                        </div>
                         <div className="benefit">
                             <div className="feature-item">
                                 <img src={truck} alt=""/>
@@ -63,14 +59,12 @@ const Feature = () => {
                         </div>
 
                     </div>
-                    <div className="col-md-6">
+
                         <div className="feature-image">
                             <img src={image} alt=""/>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+
     )
 }
 

@@ -5,7 +5,8 @@ import '../css/cta.css'
 const Cta = () => {
     return (
         <div className="cta">
-            <div className="cta-title">
+            <div className="container">
+                 <div className="cta-title">
                 <h3>
                     Elevate your style today! Check out our latest fashion collection.
                 </h3>
@@ -15,6 +16,8 @@ const Cta = () => {
                 </p>
             </div>
             <button className="cta-btn">More Collection</button>
+            </div>
+           
         </div>
 
     )

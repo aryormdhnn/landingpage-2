@@ -1,4 +1,3 @@
-/* Product.css */
 .product {
     margin: 100px;
 }
@@ -8,7 +7,6 @@
     margin-bottom: 40px;
     justify-content: space-between;
     align-items: center;
-    /* Tambahkan ini agar elemen rata tengah secara vertikal */
 }
 
 .product-title h2 {
@@ -24,7 +22,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* Tambahkan ini agar elemen rata tengah secara vertikal */
 }
 
 .product-content {
@@ -36,16 +33,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: -10px;
-    /* Jarak antar item */
 }
 
 .product-content .col-md-3 {
     flex: 0 0 25%;
-    /* Tambahkan fleksibilitas untuk lebar item produk */
     max-width: 25%;
-    /* Atur lebar maksimum untuk item produk */
     padding: 10px;
-    /* Jarak antar item */
 }
 
 /* Gambar produk */
@@ -99,4 +92,25 @@
     font-size: 14px;
     font-weight: 500;
     color: #121212;
+}
+
+@media screen and (max-width: 768px) {
+
+    .product{
+        margin: 40px 24px;
+    }
+
+    .product-title {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .product-title h2 {
+        font-size: 32px;
+    }
+
+    .product-content .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
